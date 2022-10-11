@@ -1,0 +1,58 @@
+h1{
+   color: red;
+   }
+.bgcolor h1{
+	background-color: green;
+	color: red;
+}
+.textalign h2{
+	text-align: center;
+}
+.textalign h3{
+	text-align: left;
+}
+.textalign h4{
+	text-align: right;
+}
+p{
+	text-align: justify;
+}
+p.a{
+	text-align-last: center;
+}
+p.b{
+	text-align-last: right;
+}
+p.c{
+	text-align-last: justify;
+}
+.textdirection p{
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+.p baseline{
+	vertical-align: baseline;
+}
+.p texttop{
+	vertical-align: texttop;
+}
+.p textbottom{
+	vertical-align: textbottom;
+}
+.p sub{
+	vertical-align: sub;
+}
+.p super{
+	vertical-align: super;
+}
+.decoration .overline{							
+	text-decoration: overline;
+}
+.decoration .underline{
+	text-decoration: underline;
+	
+}
+.decoration .linethrough{
+	text-decoration: line-through;
+}
+
