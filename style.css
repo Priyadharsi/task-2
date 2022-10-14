@@ -30,29 +30,42 @@ p.c{
 	direction: rtl;
 	unicode-bidi: bidi-override;
 }
-.p baseline{
+.baseline p{
 	vertical-align: baseline;
 }
-.p texttop{
+.texttop p{
 	vertical-align: texttop;
 }
-.p textbottom{
+.textbottom p{
 	vertical-align: textbottom;
 }
-.p sub{
+.sub p{
 	vertical-align: sub;
 }
-.p super{
+.super p{
 	vertical-align: super;
 }
 .decoration .overline{							
-	text-decoration: overline;
+	text-decoration: overline red;
 }
 .decoration .underline{
-	text-decoration: underline;
-	
+	text-decoration: underline dotted;
 }
 .decoration .linethrough{
-	text-decoration: line-through;
+   text-decoration: line-through 5px; 
 }
-
+.decoration .overlineunderline{
+	text-decoration: overline underline purple 5px;
+}
+.transform .uppercase{
+	text-transform: uppercase;
+}
+.transform .lowercase{
+	text-transform: lowercase;
+}
+.transform .capitalize{
+	text-transform: capitalize;
+}
+p{
+	text-indent: 100px;
+}	
